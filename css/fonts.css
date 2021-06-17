@@ -1,0 +1,62 @@
+/* Georgia */
+@font-face {
+    font-family: 'Georgia';
+    src: url('../fonts/Georgia-Bold/Georgia-Bold.eot');
+    src: local('Georgia Bold'), local('Georgia-Bold'),
+        url('../fonts/Georgia-Bold/Georgia-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Georgia-Bold/Georgia-Bold.woff2') format('woff2'),
+        url('../fonts/Georgia-Bold/Georgia-Bold.woff') format('woff'),
+        url('../fonts/Georgia-Bold/Georgia-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Halvetica */
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('../fonts/Halvetica/HelveticaNeueCyr-Bold.eot');
+    src: local('HelveticaNeueCyr-Bold'),
+        url('../fonts/Halvetica/HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Halvetica/HelveticaNeueCyr-Bold.woff2') format('woff2'),
+        url('../fonts/Halvetica/HelveticaNeueCyr-Bold.woff') format('woff'),
+        url('../fonts/Halvetica/HelveticaNeueCyr-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('../fonts/Halvetica/HelveticaNeueCyr-Roman.eot');
+    src: local('HelveticaNeueCyr-Roman'),
+        url('../fonts/Halvetica/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Halvetica/HelveticaNeueCyr-Roman.woff2') format('woff2'),
+        url('../fonts/Halvetica/HelveticaNeueCyr-Roman.woff') format('woff'),
+        url('../fonts/Halvetica/HelveticaNeueCyr-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('../fonts/Halvetica/HelveticaNeueCyr-Light.eot');
+    src: local('HelveticaNeueCyr-Light'),
+        url('../fonts/Halvetica/HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Halvetica/HelveticaNeueCyr-Light.woff2') format('woff2'),
+        url('../fonts/Halvetica/HelveticaNeueCyr-Light.woff') format('woff'),
+        url('../fonts/Halvetica/HelveticaNeueCyr-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Open Sans */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular/OpenSans-Bold.eot');
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+        url('../fonts/OpenSans-Regular/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans-Regular/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/OpenSans-Regular/OpenSans-Regular.woff') format('woff'),
+        url('../fonts/OpenSans-Regular/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
