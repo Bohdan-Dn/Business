@@ -37,7 +37,11 @@ a {
 
 /* Section */
 .section{
-    margin: 102px 0;
+    padding: 110px 0;
+}
+
+.section--gray{
+    background-color: #f3f3f3;
 }
 
 .section__header{
@@ -267,5 +271,35 @@ a {
     font-size: 30px;
     font-weight: 300;
     color: #ffffff;
+}
+
+
+/* Services */
+.services{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sevices__item{
+    width: 33.3333333%;
+    text-align: center;
+    padding: 0 53px;
+}
+
+.services__title{
+    margin: 28px 0 14px;
+
+    font-family: 'HelveticaNeueCyr';
+    font-size: 21px;
+    font-weight: 700;
+    color: #424242;
+}
+
+.services__text{
+    min-width: 238px;
+    font-family: 'OpenSans';
+    font-size: 14px;
+    font-weight: 400;
+    color: #5b5b5b;
 }
 
