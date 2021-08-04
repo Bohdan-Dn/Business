@@ -213,7 +213,8 @@ input::-webkit-inner-spin-button {
     padding: 12px 23px;
     background-color: #de2b24;
     border-radius: 4px;
-
+    
+    font-family: 'HelveticaNeueCyr';
     text-align: center;
     font-size: 15px;
     font-weight: 700;
@@ -430,7 +431,7 @@ input::-webkit-inner-spin-button {
     transform: translate3d(-65%, -50%, 0);
 }
 
-/* ANALYSIS */
+/* FORM */
 .form{
     padding: 98px 0 110px;
     text-align: center;
@@ -456,12 +457,43 @@ input::-webkit-inner-spin-button {
     transform: rotate(-225deg);
 }
 .form__window{
+    position: relative;
     margin:55px auto 111px;
     padding: 48px 0 68px;
     width: 100%;
-    max-width: 683px;
+    max-width: 685px;
     background-color: #ffffff;
     border-radius: 5px;
+}
+.form__window::before{
+    content: '';
+    position: absolute;
+    top: -64px;
+    left: 310.5px;
+    z-index: 1;
+    border: 32px solid transparent;
+    border-bottom: 32px solid #ffffff;
+}
+.form__btn-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    transform: translate(50%, -50%);
+
+    width: 49px;
+    height: 49px;
+    background-color: #de2b24;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+.form__cross{
+    padding-bottom: 3px;
+    font-family: 'HelveticaNeueCyr';
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
 }
 .form__title{
     width: 100%;
@@ -490,7 +522,7 @@ input::-webkit-inner-spin-button {
     color: #bdbdbd;
 }
 .form__inputs input:last-child{
-    margin-bottom: 0;
+    margin-bottom: 37px;
 }
 .form__inputs input:focus{
     border-color: #1287bf;
