@@ -527,3 +527,56 @@ input::-webkit-inner-spin-button {
 .form__inputs input:focus{
     border-color: #1287bf;
 }
+
+/* FOOTER */
+.footer{
+    padding: 90px 0;
+    text-align: center;
+    background-color: #2a2a2a;
+}
+.footer__header{
+    font-family: 'HelveticaNeueCyr';
+    font-size: 29px;
+    line-height: 1.4em;
+    font-weight: 700;
+    color: #ffffff;
+}
+.footer__social{
+    display: flex;
+    justify-content: center;
+    margin: 29px 0 36px;
+}
+.footer__social-item{
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 12px;
+    width: 49px;
+    height: 49px;
+    border: 2px solid #515151;
+    border-radius: 3px;
+    transition: border-color 0.2s linear;
+}
+.footer__social-item:hover{
+    border-color: #de2b24;
+}
+.footer__social-item:last-child{
+    margin-right: 0;
+}
+.footer__icon{
+    font-size: 23px;
+    line-height: 22px;
+    color: #ffffff;
+}
+.footer__text{
+    font-family:'Open Sans';
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #cecece;
+}
+.footer__input{
+    display: block;
+    margin: 31px 0 27px;
+    width: 100%;
+    max-width: 683px;
+}
